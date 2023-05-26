@@ -421,6 +421,12 @@
         /* footer css ends */
         /* ==responsive css== */
         @media (min-width: 477px) {
+           .logo-container {
+                display: inline-block;
+                align-items: center;
+                gap: 10px;
+                height: 50px;
+            }
 
             .feature {
                 justify-content: center;
