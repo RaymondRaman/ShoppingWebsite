@@ -13,22 +13,20 @@
 
             data.forEach((testimonial, index) => {
                 const testimonialHtml = `
-    <div class="col-lg-4">
-      <div class="card">
-        <div class="box front">
-          <img src="${testimonial.img}" class="card-img-top" alt="">
-          <h4 class="card-text">${testimonial.testimonial}</h4>
-          <h4>${testimonial.occupation || ""}</h4>
-          <p class="card-title">${testimonial.name}</p>
-        
-         
-        </div>
-    
-        </div>
-      </div>
-    </div>
-  `;
-
+                <div class="col-lg-4">
+                <div class="card">
+                    <div class="box front">
+                    <img src="${testimonial.img}" class="card-img-top" alt="">
+                    <h4 class="card-text">${testimonial.testimonial}</h4>
+                    <h4>${testimonial.occupation || ""}</h4>
+                    <p class="card-title">${testimonial.name}</p>
+                    
+                    
+                    </div>
+                
+                    </div>
+                </div>
+                </div>`;
                 if (index % 2 === 0) {
                     testimonialContainer1.insertAdjacentHTML("beforeend", testimonialHtml);
                 } else {
