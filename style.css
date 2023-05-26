@@ -1,4 +1,4 @@
-   :root {
+ :root {
             --dark-grey: #222
             --gray: #262626;
             --golden-treasure: #ffbd27;
@@ -425,10 +425,6 @@
             .feature {
                 justify-content: center;
                 margin: 15px;
-            }
-           
-           .carousel-inner {
-                height: 1300px;
             }
 
             .shadow-lg {
