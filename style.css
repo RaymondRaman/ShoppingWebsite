@@ -426,6 +426,10 @@
                 justify-content: center;
                 margin: 15px;
             }
+           
+           .carousel-inner {
+                height: 1300px;
+            }
 
             .shadow-lg {
                 min-height: 380.5px;
