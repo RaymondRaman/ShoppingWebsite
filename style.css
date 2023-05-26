@@ -78,7 +78,8 @@
         .navbar-light .navbar-brand {
             font-size: 25px;
             font-weight: 700;
-            size: 80%;
+            height: 40px;
+                    
         }
 
         .navbar li {
