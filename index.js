@@ -1,3 +1,4 @@
+// AJAX call from json file to fetch user's review
 fetch("testimonials.json")
     .then(response => response.json())
     .then(data => {
